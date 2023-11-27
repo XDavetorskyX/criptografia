@@ -4,7 +4,7 @@ Criptograma::Criptograma(  ){
     mensaje = "";
 }
 
-Criptograma::Criptograma( String msg ){
+Criptograma::Criptograma( std::String msg ){
     mensaje = msg;
 }
 

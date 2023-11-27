@@ -10,13 +10,13 @@ class Criptograma {
     public:
 
     Criptograma(            );
-    Criptograma( String msg );
+    Criptograma( std::String msg );
 
     char mover_char( char c, int offset );
 
     void cesar( int offset );
     void vigenere( );
 
-    void set_message( String msg );
+    void set_message( std::String msg );
     String get_message(          );
 }
