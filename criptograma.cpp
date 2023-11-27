@@ -15,3 +15,11 @@ char Criptograma::mover_char( char c, int offset ){
     c += 97;
     return c;
 }
+
+void cesar( int offset ){
+
+    for( int i = 0; i < mensaje.size( ); i++ ){
+        mensaje[i] = mover_char( mensaje[i], offset )
+    }
+
+}

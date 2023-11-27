@@ -14,7 +14,7 @@ class Criptograma {
 
     char mover_char( char c, int offset );
 
-    void cesar(    );
+    void cesar( int offset );
     void vigenere( );
 
     void set_message( String msg );
