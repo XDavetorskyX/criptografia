@@ -12,6 +12,8 @@ class Criptograma {
     Criptograma(            );
     Criptograma( String msg );
 
+    char mover_char( char c, int offset );
+
     void cesar(    );
     void vigenere( );
 
